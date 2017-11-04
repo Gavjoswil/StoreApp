@@ -1,6 +1,9 @@
 header {
 	font-weight: bold;
 }
+body{
+	background-color: tan;
+}
 
 .store-logo {
 	height: 60px;
@@ -9,7 +12,7 @@ header {
 	float: left;
 	margin-right: 10px;
 }
-.back {
+/*.back {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -17,12 +20,16 @@ header {
 	height: 100%;
 }
 .front {
+	position: absolute;
 	height: 100%;
 	width: 100%;
 	background: url(img/wheat.jpg) no-repeat center center fixed;
-	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
-}
+}*/
+
 
 .product-pic {
 	width: 625px;
