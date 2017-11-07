@@ -4,6 +4,13 @@ header {
 body{
 	background-color: tan;
 }
+body {
+	background: url(img/wheat.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	background-size: cover;
+  	-o-background-size: cover;
+}
 
 .store-logo {
 	height: 60px;
@@ -20,9 +27,9 @@ body{
 	height: 100%;
 }
 .front {
-	position: absolute;
+	position: center;
 	height: 100%;
-	width: 100%;
+	width: 1000px;
 	background: url(img/wheat.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
